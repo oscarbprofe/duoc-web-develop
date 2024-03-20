@@ -2,12 +2,84 @@
 <!--ESTO ES UN COMENTARIO EN HTML-->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>DuocUC</title>
-    </head>
-    <body>
-        <h1>Hola mundo</h1>
-        <h2>Hola mundo más pequeño</h2>
-        <h3>Hola mundo aún más pequeño</h3>
-    </body>
+<!--El tag HEAD es el inicio y contiene informacion interna-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!--Título de la página-->
+    <title>DuocUC</title>
+    <!--Tag META esta para metadatos de la web para usos variados externos e internos-->
+    <meta name="description" content="A description of the page">
+    <style>
+        .title-1 {
+            color: coral;
+            background-color: black;
+            text-align: center;
+            min-height: 100px;
+            margin: auto;
+        }
+
+        .title-2 {
+            color: coral;
+            background-color: crimson;
+            text-align: center;
+            min-height: 100px;
+            margin: auto;
+        }
+
+        #title_1 {
+            margin: auto;
+            min-height: 400px;
+            background-color: aquamarine;
+        }
+
+
+        div {
+            background-color: yellowgreen;
+            min-height: 100px;
+        }
+
+        #title_2 {
+            margin: auto;
+            min-height: 400px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        Padre del h1:
+        Divisor de sección de código que toma todo el ancho disponible
+        y que tiene un salto de línea final
+    -->
+    <div id="title_1">
+        <!--
+            hijo del div con id title_1
+            Título encabezado tamaño más grande-->
+        <h1 value="1" class="title-1">Introducción</h1>
+    </div>
+    <!--Párrafo-->
+    <p id="paragraph_1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        At culpa voluptatibus aliquid obcaecati nostrum aliquam fugiat voluptate tempora maiores eaque ullam assumenda
+        natus, architecto error voluptates sed corporis cumque nisi.
+    </p>
+    <p class="title-1">
+        Lorem, ipsum dolor sit amet consectetur </br> adipisicing elit. Facilis, similique labore amet tenetur veniam
+        nesciunt beatae quam deserunt nulla fugit officiis aut quidem accusamus vel. Voluptatem accusamus nesciunt esse
+        labore?
+    </p>
+    <div id="title_2" class="title-2">
+        <h2 >Hola mundo más pequeño</h2>
+    </div>
+
+    <h3>Hola mundo aún más pequeño</h3>
+    <!--Esto es un link con ruta relativa-->
+    <a href="components/users.html" target="_parent">Link a Usuarios</a>
+    <br> <!-- Estp es un salto de línea -->
+    <!--Esto es un link con ruta absoluta-->
+    <a href="https://www.kickon.cl" target="_blank">Visita Kickon TCG</a>
+</body>
+
 </html>
