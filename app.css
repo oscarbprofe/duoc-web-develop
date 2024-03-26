@@ -1,0 +1,84 @@
+
+body{
+    color: aliceblue;
+    font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: rgb(36,0,16);
+background: linear-gradient(90deg, rgba(36,0,16,1) 0%, rgba(9,9,121,1) 64%, rgba(0,212,255,1) 100%);
+}
+
+div {
+    background-color: yellowgreen;
+}
+
+.title-1 {
+    color: coral;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.title-2 a{
+    color: coral;
+    background-color: crimson;
+    text-align: center;
+    margin: auto;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+.border-5 {
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+.button-primary {
+    width: fit-content;
+    padding: 2px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    color: black;
+}
+
+.button-primary:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: ease-in;
+}
+
+#title_1 {
+    position: fixed;
+    top: 0px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    margin: auto;
+    min-height: auto;
+}
+
+#title_2 {
+    margin: auto;
+    background-color: blueviolet;
+}
+
+#top-margin{
+    margin-top: 50px;
+}
+
+#paragraph_1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+  }
+  
+  .special {
+    color: black;
+    font-weight: bold;
+  }
