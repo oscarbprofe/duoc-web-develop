@@ -48,8 +48,9 @@ a:visited{
     color: aliceblue;
     transition: ease-in;
 }
-
-#title_1 {
+/* El simbolo # sirve para indicar que le
+ daremos estilo a un tag html con un id determinado #id*/
+#navBar {
     position: fixed;
     top: 0px;
     width: -webkit-fill-available;
